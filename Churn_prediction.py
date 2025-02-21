@@ -12,7 +12,7 @@ df = pd.read_csv("Updated_churn_dataset.csv")
 df2 = pd.read_csv("WA_Fn-UseC_-Telco-Customer-Churn.csv")
 
 # Add a title and description to the app
-st.title("Ameerah's Churn prediction model")
+st.title("Esther's Churn prediction model")
 st.write("""
 This app uses **LogisticRegression** to predict the likelihood of a customer churning
 based on input features.
